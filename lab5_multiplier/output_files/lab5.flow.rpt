@@ -1,0 +1,129 @@
+Flow report for lab5
+Fri Oct 02 22:11:52 2020
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Fri Oct 02 22:11:52 2020       ;
+; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Revision Name                      ; lab5                                        ;
+; Top-level Entity Name              ; multiplier                                  ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C7G                              ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 102                                         ;
+;     Total combinational functions  ; 94                                          ;
+;     Dedicated logic registers      ; 48                                          ;
+; Total registers                    ; 48                                          ;
+; Total pins                         ; 56                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/02/2020 22:11:37 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab5                ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++--------------------------------------+----------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+----------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 121369451136.160169469601224           ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench_lab5 ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench_lab5                         ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; testbench_lab5.sv                      ; --            ; --          ; testbench_lab5 ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench_lab5                         ; --            ; --          ; testbench_lab5 ;
+; EDA_TEST_BENCH_NAME                  ; testbench_lab5                         ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 3000 ns                                ; --            ; --          ; testbench_lab5 ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
+; MISC_FILE                            ; mutl_bb.v                              ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; multiplier  ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; multiplier  ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; multiplier  ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; multiplier                             ; lab5          ; --          ; --             ;
++--------------------------------------+----------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4732 MB             ; 00:00:25                           ;
+; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:25                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; CHUANGYIZHA91F4  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab5 -c lab5
+
+
+

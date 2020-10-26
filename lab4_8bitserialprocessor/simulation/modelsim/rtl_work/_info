@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.0/lab4_8bitserialprocessor/simulation/modelsim
+vcompute
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1601086621
+!i10b 1
+!s100 i=]6932U1_OWO<5E?3HbR1
+I?EQA9<_f2d7IlUVL=IaCU1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 compute_sv_unit
+S1
+R0
+Z4 w1600324835
+8C:/intelFPGA_lite/18.0/logic_processor_4bit/compute.sv
+FC:/intelFPGA_lite/18.0/logic_processor_4bit/compute.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1601086621.000000
+!s107 C:/intelFPGA_lite/18.0/logic_processor_4bit/compute.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit|C:/intelFPGA_lite/18.0/logic_processor_4bit/compute.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit
+Z9 tCvgOpt 0
+vcontrol
+R1
+R2
+!i10b 1
+!s100 G>B0Hdl0ZYgb?b?f8@CeW1
+IfkIli[6e64Modh63LeUo23
+R3
+!s105 Control_sv_unit
+S1
+R0
+Z10 w1600370166
+8C:/intelFPGA_lite/18.0/logic_processor_4bit/Control.sv
+FC:/intelFPGA_lite/18.0/logic_processor_4bit/Control.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/intelFPGA_lite/18.0/logic_processor_4bit/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit|C:/intelFPGA_lite/18.0/logic_processor_4bit/Control.sv|
+!i113 1
+R7
+R8
+R9
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+IFGjL`O:;@7K?H0Nn1l^Y^0
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R4
+8C:/intelFPGA_lite/18.0/logic_processor_4bit/HexDriver.sv
+FC:/intelFPGA_lite/18.0/logic_processor_4bit/HexDriver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/intelFPGA_lite/18.0/logic_processor_4bit/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit|C:/intelFPGA_lite/18.0/logic_processor_4bit/HexDriver.sv|
+!i113 1
+R7
+R8
+R9
+n@hex@driver
+vProcessor
+R1
+R2
+!i10b 1
+!s100 V>d?Ti8Dc4?RS0;B3ef>M0
+IdDF8k?kPZPmPdUZgA[ZMO1
+R3
+!s105 Processor_sv_unit
+S1
+R0
+R10
+8C:/intelFPGA_lite/18.0/logic_processor_4bit/Processor.sv
+FC:/intelFPGA_lite/18.0/logic_processor_4bit/Processor.sv
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/intelFPGA_lite/18.0/logic_processor_4bit/Processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit|C:/intelFPGA_lite/18.0/logic_processor_4bit/Processor.sv|
+!i113 1
+R7
+R8
+R9
+n@processor
+vreg_4
+R1
+Z11 !s110 1601086620
+!i10b 1
+!s100 9Q;M_bZYcOBn:M<I6<c8k0
+IEYDoa3=6L[@5WX9Jg;;aG1
+R3
+!s105 Reg_4_sv_unit
+S1
+R0
+w1600370167
+8C:/intelFPGA_lite/18.0/logic_processor_4bit/Reg_4.sv
+FC:/intelFPGA_lite/18.0/logic_processor_4bit/Reg_4.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z12 !s108 1601086620.000000
+!s107 C:/intelFPGA_lite/18.0/logic_processor_4bit/Reg_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit|C:/intelFPGA_lite/18.0/logic_processor_4bit/Reg_4.sv|
+!i113 1
+R7
+R8
+R9
+vregister_unit
+R1
+R2
+!i10b 1
+!s100 c?`W04Obk>`oYn_UgA>oj0
+IHaE9<ieo9GljI_@?8;8^n2
+R3
+!s105 Register_unit_sv_unit
+S1
+R0
+w1600326738
+8C:/intelFPGA_lite/18.0/logic_processor_4bit/Register_unit.sv
+FC:/intelFPGA_lite/18.0/logic_processor_4bit/Register_unit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/intelFPGA_lite/18.0/logic_processor_4bit/Register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit|C:/intelFPGA_lite/18.0/logic_processor_4bit/Register_unit.sv|
+!i113 1
+R7
+R8
+R9
+vrouter
+R1
+R11
+!i10b 1
+!s100 lIdD9@`9>^lYia[Dkg2aV0
+Iko0l`g>fV]^OG30lHkfm<2
+R3
+!s105 Router_sv_unit
+S1
+R0
+R4
+8C:/intelFPGA_lite/18.0/logic_processor_4bit/Router.sv
+FC:/intelFPGA_lite/18.0/logic_processor_4bit/Router.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/intelFPGA_lite/18.0/logic_processor_4bit/Router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit|C:/intelFPGA_lite/18.0/logic_processor_4bit/Router.sv|
+!i113 1
+R7
+R8
+R9
+vsync
+R1
+R11
+!i10b 1
+!s100 2W5Vz0:F6ckE2`eJOTK5l1
+IgmGf0?f[6A1Y^fcCKYed91
+R3
+Z13 !s105 Synchronizers_sv_unit
+S1
+R0
+Z14 w1601035463
+Z15 8C:/intelFPGA_lite/18.0/logic_processor_4bit/Synchronizers.sv
+Z16 FC:/intelFPGA_lite/18.0/logic_processor_4bit/Synchronizers.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R12
+Z17 !s107 C:/intelFPGA_lite/18.0/logic_processor_4bit/Synchronizers.sv|
+Z18 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/logic_processor_4bit|C:/intelFPGA_lite/18.0/logic_processor_4bit/Synchronizers.sv|
+!i113 1
+R7
+R8
+R9
+vsync_r0
+R1
+R11
+!i10b 1
+!s100 IGd9f_F;JNjVBLQ@DAnD10
+I:F3=LWTA6b<;dWc[bj8ZC1
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 18
+R5
+r1
+!s85 0
+31
+R12
+R17
+R18
+!i113 1
+R7
+R8
+R9
+vsync_r1
+R1
+R11
+!i10b 1
+!s100 1CXiH1DYDbAUS69Ee2j060
+I6HUnXelRGDGTXno_o3Fo71
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 39
+R5
+r1
+!s85 0
+31
+R12
+R17
+R18
+!i113 1
+R7
+R8
+R9
+vtestbench8
+R1
+!s110 1601086622
+!i10b 1
+!s100 H>Lhm0b>^;cgnEzGlkVQ`3
+I5>5DW9NeJ8>dzb;RnSboC3
+R3
+!s105 testbench_8_sv_unit
+S1
+R0
+w1601086610
+8C:/intelFPGA_lite/18.0/lab4_8bitserialprocessor/../logic_processor_4bit/testbench_8.sv
+FC:/intelFPGA_lite/18.0/lab4_8bitserialprocessor/../logic_processor_4bit/testbench_8.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/intelFPGA_lite/18.0/lab4_8bitserialprocessor/../logic_processor_4bit/testbench_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab4_8bitserialprocessor/../logic_processor_4bit|C:/intelFPGA_lite/18.0/lab4_8bitserialprocessor/../logic_processor_4bit/testbench_8.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab4_8bitserialprocessor/../logic_processor_4bit
+R9

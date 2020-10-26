@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at slc3_sramtop.sv(7): object "Run" differs only in case from object "RUN" in the same scope File: C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3_sramtop.sv Line: 7
+Info (10281): Verilog HDL Declaration information at slc3_sramtop.sv(7): object "Continue" differs only in case from object "CONTINUE" in the same scope File: C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3_sramtop.sv Line: 7
+Warning (10273): Verilog HDL warning at HexDriver.sv(24): extended using "x" or "z" File: C:/intelFPGA_lite/18.0/lab6_week2_final/HexDriver.sv Line: 24
+Warning (10273): Verilog HDL warning at tri_state.sv(57): extended using "x" or "z" File: C:/intelFPGA_lite/18.0/lab6_week2_final/tri_state.sv Line: 57

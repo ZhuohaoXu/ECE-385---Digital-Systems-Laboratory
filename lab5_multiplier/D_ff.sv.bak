@@ -1,0 +1,16 @@
+module D_ff(
+				input logic Din,
+				input logic clk, reset, load,
+				output logic Q);
+				
+				always_ff @ (posedge clk)
+				
+				begin
+					if(reset)
+						Q <= 0;
+					else if (load)
+						Q <= Din;
+				end
+	
+	endmodule
+	

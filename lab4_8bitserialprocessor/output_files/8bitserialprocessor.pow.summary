@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Fri Sep 25 21:14:29 2020
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : 8bitserialprocessor
+Top-level Entity Name : Processor
+Family : MAX 10
+Device : 10M50DAF484C7G
+Power Models : Final
+Total Thermal Power Dissipation : 105.51 mW
+Core Dynamic Thermal Power Dissipation : 2.03 mW
+Core Static Thermal Power Dissipation : 89.97 mW
+I/O Thermal Power Dissipation : 13.51 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

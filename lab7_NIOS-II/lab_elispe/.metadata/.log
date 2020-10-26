@@ -1,0 +1,1003 @@
+!SESSION 2020-10-15 22:51:06.174 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2020-10-15 22:52:13.933
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-15 22:54:02.889
+!MESSAGE Indexed 'lab7_app_bsp' (75 sources, 152 headers) in 10.1 sec: 5,259 declarations; 7,811 references; 53 unresolved inclusions; 3 syntax errors; 93 unresolved names (0.71%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-15 22:54:07.621
+!MESSAGE Indexed 'lab7_app' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 22:57:43.530
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 22:57:43.563
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x78 --id=0x0 --timestamp=1602818823]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 22:57:46.603
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x78 --id=0x0 --timestamp=1602818823 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+!SESSION 2020-10-15 23:09:39.683 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2020-10-15 23:10:21.541
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2020-10-15 23:17:43.966 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2020-10-15 23:18:14.897
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:20:38.812
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:20:38.845
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:20:41.953
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:24:57.186
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:24:58.510
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:24:58.512
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:25:01.674
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:27:06.151
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:27:07.347
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:27:07.349
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:27:10.566
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:27:13.553
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x98, --id=0x0, --timestamp=1602820809, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:27:13.557
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:27:39.563
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:27:39.565
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:27:42.427
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:27:45.406
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x98, --id=0x0, --timestamp=1602820809, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:27:45.408
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:28:30.541
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:28:30.541
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:28:33.649
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:28:36.594
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x98, --id=0x0, --timestamp=1602820809, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:28:36.596
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:31:11.265
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:31:11.267
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:31:14.343
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:31:17.334
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x98, --id=0x0, --timestamp=1602820809, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:31:17.336
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:31:47.147
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:31:47.149
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:31:50.142
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:31:53.298
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x98, --id=0x0, --timestamp=1602820809, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:31:53.299
+!MESSAGE Downloading ELF Process failed
+!SESSION 2020-10-15 23:36:04.848 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2020-10-15 23:36:36.391
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:38:25.227
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:38:25.262
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:38:28.326
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:43:24.926
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:43:26.282
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:43:26.283
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:43:29.387
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:47:36.913
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:47:38.198
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:47:38.199
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:47:41.337
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:49:14.713
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-15 23:49:15.985
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:49:15.986
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x98 --id=0x0 --timestamp=1602820809]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-15 23:49:19.067
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x98 --id=0x0 --timestamp=1602820809 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:03:04.075
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:03:06.566
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:03:06.567
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:03:09.774
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:04:57.588
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:04:58.850
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:04:58.852
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:05:01.888
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:06:44.836
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:06:46.330
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:06:46.331
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:06:49.430
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+!SESSION 2020-10-16 00:25:14.049 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-10-16 00:25:20.659
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2020-10-16 00:25:45.256
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:28:23.138
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:28:23.169
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:29:53.700
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:29:53.700
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:29:56.818
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:31:07.717
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:31:08.968
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:31:08.968
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:31:12.070
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:33:03.092
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:33:04.653
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:33:04.653
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:33:08.036
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:33:11.169
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:33:11.169
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:34:54.691
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:34:54.691
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:34:57.761
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:42:03.916
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:42:05.182
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:42:05.182
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:42:08.301
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:42:11.306
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:42:11.306
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:42:58.900
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:42:58.900
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:43:02.001
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:43:04.997
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:43:04.997
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:44:11.392
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:44:11.392
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:44:14.446
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:44:20.585
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:44:20.585
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:46:27.258
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:46:27.258
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:46:30.373
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:47:55.989
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:47:57.333
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:47:57.333
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:48:00.419
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:48:03.409
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:48:03.409
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:48:32.861
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:48:32.861
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:48:35.901
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:48:38.966
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:48:38.966
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:50:51.763
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:50:51.763
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:50:54.835
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0xb8, --id=0x0, --timestamp=1602823972] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:50:54.835
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:50:58.476
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:50:58.476
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:54:29.664
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:54:29.664
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:54:33.141
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:55:58.961
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:56:05.165
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:56:05.165
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:56:26.587
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:56:26.587
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:57:37.743
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:57:37.743
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:57:42.329
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:57:45.915
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:57:45.915
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:58:04.198
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:58:04.198
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:58:07.221
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:59:09.489
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 00:59:10.755
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:59:10.755
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 00:59:13.904
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:02:58.557
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:02:59.838
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:02:59.838
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:03:02.878
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:03:05.874
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:03:05.886
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:03:24.137
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:03:24.137
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:03:30.179
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:03:35.785
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:03:35.824
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:04:34.348
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:04:34.348
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:04:37.325
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:04:40.302
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:04:40.302
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:06:32.864
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:06:32.864
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:06:35.936
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:12:29.782
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:12:31.064
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:12:31.064
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:12:34.041
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:15:07.940
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:15:09.224
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:15:09.224
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:15:12.339
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:16:58.342
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:16:59.701
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:16:59.701
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:17:02.991
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:17:06.161
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:17:06.161
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:17:38.348
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:17:38.348
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:17:41.387
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:18:02.279
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:18:03.561
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:18:03.561
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:18:06.771
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:18:09.747
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:18:09.747
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:19:11.183
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:19:11.183
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:19:14.488
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:25:25.331
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:25:26.706
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:25:26.706
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:25:29.981
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:25:33.181
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:25:33.181
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:25:58.745
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:25:58.745
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:26:01.799
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:27:03.321
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:27:04.634
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:27:04.634
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:27:07.751
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:27:10.931
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:27:10.931
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:27:26.993
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:27:26.993
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:27:30.003
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:28:44.190
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:28:45.660
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:28:45.660
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:28:48.729
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:31:15.437
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:31:16.766
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:31:16.766
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:31:19.962
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:31:22.531
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:31:22.531
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:31:42.702
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:31:42.702
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:31:45.851
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:33:09.375
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 01:33:10.641
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:33:10.641
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 01:33:13.743
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 04:54:09.918
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 04:54:10.981
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 04:54:10.996
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 04:54:14.053
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+!SESSION 2020-10-16 18:24:13.488 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2020-10-16 18:24:50.484
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 18:26:13.442
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 18:26:13.483
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 18:26:16.341
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 18:26:19.196
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 18:26:19.201
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 18:26:37.423
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 18:26:37.425
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 18:26:40.108
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 19:51:22.143
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 19:51:23.499
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 19:51:23.506
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 19:51:26.441
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 19:51:29.557
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb8, --id=0x0, --timestamp=1602823972, /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 19:51:29.559
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-16 19:51:45.320
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 19:51:45.321
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --id=0x0 --timestamp=1602823972]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-16 19:51:48.315
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --id=0x0 --timestamp=1602823972 /cygdrive/c/intelFPGA_lite/18.0/lab7/software/lab7_app/lab7_app.elf]
+!SESSION 2020-10-23 23:16:03.176 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2020-10-23 23:16:51.614
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2020-10-23 23:20:14.265 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2020-10-23 23:20:36.185
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more

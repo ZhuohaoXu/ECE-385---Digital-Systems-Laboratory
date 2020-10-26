@@ -1,0 +1,132 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do lab5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5 {C:/intelFPGA_lite/18.0/ece385_lab5/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:28 on Oct 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.0/ece385_lab5" C:/intelFPGA_lite/18.0/ece385_lab5/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 22:12:28 on Oct 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5 {C:/intelFPGA_lite/18.0/ece385_lab5/reg8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:28 on Oct 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.0/ece385_lab5" C:/intelFPGA_lite/18.0/ece385_lab5/reg8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 22:12:28 on Oct 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5 {C:/intelFPGA_lite/18.0/ece385_lab5/synchronizer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:28 on Oct 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.0/ece385_lab5" C:/intelFPGA_lite/18.0/ece385_lab5/synchronizer.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 22:12:28 on Oct 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5 {C:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:28 on Oct 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.0/ece385_lab5" C:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv 
+# -- Compiling module ripple_adder_8
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	ripple_adder_8
+# End time: 22:12:28 on Oct 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5 {C:/intelFPGA_lite/18.0/ece385_lab5/D_ff.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:28 on Oct 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.0/ece385_lab5" C:/intelFPGA_lite/18.0/ece385_lab5/D_ff.sv 
+# -- Compiling module D_ff
+# 
+# Top level modules:
+# 	D_ff
+# End time: 22:12:28 on Oct 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5 {C:/intelFPGA_lite/18.0/ece385_lab5/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:29 on Oct 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.0/ece385_lab5" C:/intelFPGA_lite/18.0/ece385_lab5/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 22:12:29 on Oct 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5 {C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:29 on Oct 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.0/ece385_lab5" C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 22:12:29 on Oct 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5 {C:/intelFPGA_lite/18.0/ece385_lab5/testbench_lab5.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:29 on Oct 02,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/18.0/ece385_lab5" C:/intelFPGA_lite/18.0/ece385_lab5/testbench_lab5.sv 
+# -- Compiling module testbench_lab5
+# 
+# Top level modules:
+# 	testbench_lab5
+# End time: 22:12:29 on Oct 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_lab5
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_lab5 
+# Start time: 22:12:29 on Oct 02,2020
+# Loading sv_std.std
+# Loading work.testbench_lab5
+# Loading work.multiplier
+# Loading work.D_ff
+# Loading work.ripple_adder_8
+# Loading work.full_adder
+# Loading work.reg_8
+# Loading work.control
+# Loading work.HexDriver
+# Loading work.sync
+# ** Warning: (vsim-3017) C:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv(14): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_lab5/multiplier0/adder/FA8 File: C:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv(14): [TFMPC] - Missing connection for port 'c'.
+# ** Warning: (vsim-3017) C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv(44): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_lab5/multiplier0/reg_B File: C:/intelFPGA_lite/18.0/ece385_lab5/reg8.sv
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv(44): [TFMPC] - Missing connection for port 'Shift_Out'.
+# ** Warning: (vsim-3017) C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv(55): [TFMPC] - Too few port connections. Expected 12, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_lab5/multiplier0/control_unit File: C:/intelFPGA_lite/18.0/ece385_lab5/control.sv
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv(55): [TFMPC] - Missing connection for port 'CLEARB'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 3000 ns
+# ** Warning: (vsim-8315) C:/intelFPGA_lite/18.0/ece385_lab5/control.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_lab5/multiplier0/control_unit
+# End time: 22:18:36 on Oct 02,2020, Elapsed time: 0:06:07
+# Errors: 0, Warnings: 7

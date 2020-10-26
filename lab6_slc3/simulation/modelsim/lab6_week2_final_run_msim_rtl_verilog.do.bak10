@@ -1,0 +1,33 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020 {C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/test_memory.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020 {C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/synchronizers.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020 {C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/SLC3_2.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020 {C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/Mem2IO.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020 {C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/ISDU.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/HexDriver.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/tri_state.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/reg_16.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/ALU.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/mux2to1.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/mux4to1.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/datapath.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/ben_element.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020 {C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020 {C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/memory_contents.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/reg_file.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020 {C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3_testtop.sv}
+
+vlog -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final {C:/intelFPGA_lite/18.0/lab6_week2_final/testbench_lab6.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_lab6
+
+add wave *
+view structure
+view signals
+run 1000 ns

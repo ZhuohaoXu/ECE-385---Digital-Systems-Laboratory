@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.0/ece385_lab5/simulation/modelsim
+vcontrol
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1601694749
+!i10b 1
+!s100 [=3[1UXEKXajSe]8QMCHf2
+Ik:LDd?ATLFkmJLVlNW?_B0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 control_sv_unit
+S1
+R0
+w1601064701
+8C:/intelFPGA_lite/18.0/ece385_lab5/control.sv
+FC:/intelFPGA_lite/18.0/ece385_lab5/control.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1601694749.000000
+!s107 C:/intelFPGA_lite/18.0/ece385_lab5/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/ece385_lab5|C:/intelFPGA_lite/18.0/ece385_lab5/control.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/intelFPGA_lite/18.0/ece385_lab5
+Z8 tCvgOpt 0
+vD_ff
+R1
+Z9 !s110 1601694748
+!i10b 1
+!s100 :_D@4O=FaRX1Ohed?<zj>0
+I5:ECO<X<:mEELSmLW8>D:3
+R3
+!s105 D_ff_sv_unit
+S1
+R0
+w1601024648
+8C:/intelFPGA_lite/18.0/ece385_lab5/D_ff.sv
+FC:/intelFPGA_lite/18.0/ece385_lab5/D_ff.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1601694748.000000
+!s107 C:/intelFPGA_lite/18.0/ece385_lab5/D_ff.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/ece385_lab5|C:/intelFPGA_lite/18.0/ece385_lab5/D_ff.sv|
+!i113 1
+R6
+R7
+R8
+n@d_ff
+vfull_adder
+R1
+R9
+!i10b 1
+!s100 :P>o6EAi7Z0:@N`Y;fSMl3
+I[gINMLKB]=6dg8]ijiB`@1
+R3
+Z11 !s105 ripple_adder_8_sv_unit
+S1
+R0
+Z12 w1601035726
+Z13 8C:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv
+Z14 FC:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv
+L0 22
+R4
+r1
+!s85 0
+31
+R10
+Z15 !s107 C:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/ece385_lab5|C:/intelFPGA_lite/18.0/ece385_lab5/ripple_adder_8.sv|
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+R9
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+I15CY?J15Bd:4MmkA8V:_;0
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1601022323
+8C:/intelFPGA_lite/18.0/ece385_lab5/HexDriver.sv
+FC:/intelFPGA_lite/18.0/ece385_lab5/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/18.0/ece385_lab5/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/ece385_lab5|C:/intelFPGA_lite/18.0/ece385_lab5/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+vmultiplier
+R1
+R2
+!i10b 1
+!s100 o5D?5Qiag:^HigUhPQh]A2
+IeV728YHbP=0dXl;coeG=n0
+R3
+!s105 multiplier_sv_unit
+S1
+R0
+w1601073492
+8C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv
+FC:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/ece385_lab5|C:/intelFPGA_lite/18.0/ece385_lab5/multiplier.sv|
+!i113 1
+R6
+R7
+R8
+vreg_8
+R1
+R9
+!i10b 1
+!s100 AXDzj?_?eZ4hKcKof@=bm2
+In@<9OG^8``E0:]mbC^H9^0
+R3
+!s105 reg8_sv_unit
+S1
+R0
+w1601024724
+8C:/intelFPGA_lite/18.0/ece385_lab5/reg8.sv
+FC:/intelFPGA_lite/18.0/ece385_lab5/reg8.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/18.0/ece385_lab5/reg8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/ece385_lab5|C:/intelFPGA_lite/18.0/ece385_lab5/reg8.sv|
+!i113 1
+R6
+R7
+R8
+vripple_adder_8
+R1
+R9
+!i10b 1
+!s100 EcoCXd:mYh50f8;7L=J7a1
+IWJj;nOE^YjIOA7XlU8ciW1
+R3
+R11
+S1
+R0
+R12
+R13
+R14
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 1
+R6
+R7
+R8
+vsync
+R1
+R9
+!i10b 1
+!s100 2W5Vz0:F6ckE2`eJOTK5l1
+I<W[jg_>=D1Ink^FXnnOgP1
+R3
+Z17 !s105 synchronizer_sv_unit
+S1
+R0
+Z18 w1601022872
+Z19 8C:/intelFPGA_lite/18.0/ece385_lab5/synchronizer.sv
+Z20 FC:/intelFPGA_lite/18.0/ece385_lab5/synchronizer.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+Z21 !s107 C:/intelFPGA_lite/18.0/ece385_lab5/synchronizer.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/ece385_lab5|C:/intelFPGA_lite/18.0/ece385_lab5/synchronizer.sv|
+!i113 1
+R6
+R7
+R8
+vsync_r0
+R1
+R9
+!i10b 1
+!s100 IGd9f_F;JNjVBLQ@DAnD10
+I^MJ]7QgdmJ^7IKKgz@?CU0
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 18
+R4
+r1
+!s85 0
+31
+R10
+R21
+R22
+!i113 1
+R6
+R7
+R8
+vsync_r1
+R1
+R9
+!i10b 1
+!s100 1CXiH1DYDbAUS69Ee2j060
+I<jb8`gH[UmHF^JFMVQLe^3
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 39
+R4
+r1
+!s85 0
+31
+R10
+R21
+R22
+!i113 1
+R6
+R7
+R8
+vtestbench_lab5
+R1
+R2
+!i10b 1
+!s100 IWzEK6Yi[TSI`T1CR69`=0
+Ib44cB1^aHPd?c7ZE[YD^j3
+R3
+!s105 testbench_lab5_sv_unit
+S1
+R0
+w1601694679
+8C:/intelFPGA_lite/18.0/ece385_lab5/testbench_lab5.sv
+FC:/intelFPGA_lite/18.0/ece385_lab5/testbench_lab5.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/ece385_lab5/testbench_lab5.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/ece385_lab5|C:/intelFPGA_lite/18.0/ece385_lab5/testbench_lab5.sv|
+!i113 1
+R6
+R7
+R8

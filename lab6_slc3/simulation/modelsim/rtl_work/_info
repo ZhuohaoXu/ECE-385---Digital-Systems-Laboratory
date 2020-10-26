@@ -1,0 +1,640 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.0/lab6_week2_final/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1602900781
+!i10b 1
+!s100 GCJ`0B6ZjdAL4k2<`RA8G3
+IUcMFzEfh_TTCHEIMW[N`?3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ALU_sv_unit
+S1
+R0
+w1602121527
+8C:/intelFPGA_lite/18.0/lab6_week2_final/ALU.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/ALU.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1602900781.000000
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/ALU.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final
+Z8 tCvgOpt 0
+n@a@l@u
+vben_element
+R1
+Z9 !s110 1602900782
+!i10b 1
+!s100 S]EoO@9Njgnih1bz=^8:Y3
+I_XziC[4dTUK3cd<>]g;PO0
+R3
+!s105 ben_element_sv_unit
+S1
+R0
+w1602174321
+8C:/intelFPGA_lite/18.0/lab6_week2_final/ben_element.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/ben_element.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1602900782.000000
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/ben_element.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/ben_element.sv|
+!i113 1
+R6
+R7
+R8
+vdatapath
+R1
+R2
+!i10b 1
+!s100 gI:MREYnaiXn;[F^96z1^1
+I2@TcgQSkHJ`N>^P3aKSFm0
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1602175990
+8C:/intelFPGA_lite/18.0/lab6_week2_final/datapath.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/datapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/datapath.sv|
+!i113 1
+R6
+R7
+R8
+vdecoder
+R1
+R9
+!i10b 1
+!s100 Z?3X]nhNAD;zH4e;TA?@31
+I>z0F:7GT<5Olm^3;[LE6>3
+R3
+Z11 !s105 reg_file_sv_unit
+S1
+R0
+Z12 w1602121486
+Z13 8C:/intelFPGA_lite/18.0/lab6_week2_final/reg_file.sv
+Z14 FC:/intelFPGA_lite/18.0/lab6_week2_final/reg_file.sv
+L0 119
+R4
+r1
+!s85 0
+31
+R10
+Z15 !s107 C:/intelFPGA_lite/18.0/lab6_week2_final/reg_file.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/reg_file.sv|
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+Z17 !s110 1602900780
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+I`GYc;6hhUm3zeoH:A3UhK2
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1602121407
+8C:/intelFPGA_lite/18.0/lab6_week2_final/HexDriver.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z18 !s108 1602900780.000000
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+vISDU
+R1
+Z19 !s110 1602900779
+!i10b 1
+!s100 T4I50SJ7eAYIo2bi5lE`C0
+I^<M5fnY?^CC2[lo;PX6_]2
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+w1602232083
+8C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/ISDU.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/ISDU.sv
+Z20 L0 19
+R4
+r1
+!s85 0
+31
+Z21 !s108 1602900779.000000
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020|C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/ISDU.sv|
+!i113 1
+R6
+Z22 !s92 -sv -work work +incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020
+R8
+n@i@s@d@u
+vMem2IO
+R1
+R19
+!i10b 1
+!s100 ]Q:NN9GIUgNPLn_MG6U5k1
+I4X:?:z;_kz8CAVfjUl?_h0
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+w1602205120
+8C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/Mem2IO.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/Mem2IO.sv
+Z23 L0 16
+R4
+r1
+!s85 0
+31
+R21
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020|C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/Mem2IO.sv|
+!i113 1
+R6
+R22
+R8
+n@mem2@i@o
+Xmemory_contents_sv_unit
+R1
+Z24 DXx4 work 6 SLC3_2 0 22 ;^n_>k7SH:CW3Hbifa<Xe3
+VeG^G`7Q==?]3lP[^VI^=c2
+r1
+!s85 0
+31
+!i10b 1
+!s100 3HBe^oHDgeVH<TZocfCK[0
+IeG^G`7Q==?]3lP[^VI^=c2
+!i103 1
+S1
+R0
+Z25 w1602900581
+Z26 8C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/memory_contents.sv
+Z27 FC:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/memory_contents.sv
+R23
+R4
+R10
+Z28 !s107 C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/memory_contents.sv|
+Z29 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020|C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/memory_contents.sv|
+!i113 1
+R6
+R22
+R8
+vmemory_parser
+R1
+R24
+DXx4 work 23 memory_contents_sv_unit 0 22 eG^G`7Q==?]3lP[^VI^=c2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 >J4P2CYQf]?bXT]5iO>?g2
+IB0XlZ;7?lIYfVX6300OQQ2
+!s105 memory_contents_sv_unit
+S1
+R0
+R25
+R26
+R27
+L0 18
+R4
+R10
+R28
+R29
+!i113 1
+R6
+R22
+R8
+vmux2to1
+R1
+R2
+!i10b 1
+!s100 ;7=Ge;f[oToI@lPAXU^JB3
+IbA52az3j5fEJcjJUWm;9[3
+R3
+!s105 mux2to1_sv_unit
+S1
+R0
+w1602121555
+8C:/intelFPGA_lite/18.0/lab6_week2_final/mux2to1.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/mux2to1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/mux2to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/mux2to1.sv|
+!i113 1
+R6
+R7
+R8
+vmux2to1_3bits
+R1
+R9
+!i10b 1
+!s100 cUHFobBU>45A45_AMlHA81
+IANf0o;`70Eoh:ALRbD`OG3
+R3
+R11
+S1
+R0
+R12
+R13
+R14
+L0 69
+R4
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 1
+R6
+R7
+R8
+vmux4to1
+R1
+R2
+!i10b 1
+!s100 WIIo7HE@Y^lW?C7Nl``l^2
+ICmfNnP>1b3=1dFN@8dR6a2
+R3
+!s105 mux4to1_sv_unit
+S1
+R0
+w1602121592
+8C:/intelFPGA_lite/18.0/lab6_week2_final/mux4to1.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/mux4to1.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/mux4to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/mux4to1.sv|
+!i113 1
+R6
+R7
+R8
+vmux4to1_tri
+R1
+R17
+!i10b 1
+!s100 kVf`oNlC:PJNSNF9h@gSI1
+I5CAzk7@hgZ7VMEGlbmfB<1
+R3
+Z30 !s105 tri_state_sv_unit
+S1
+R0
+Z31 w1602121456
+Z32 8C:/intelFPGA_lite/18.0/lab6_week2_final/tri_state.sv
+Z33 FC:/intelFPGA_lite/18.0/lab6_week2_final/tri_state.sv
+L0 45
+R4
+r1
+!s85 0
+31
+R18
+Z34 !s107 C:/intelFPGA_lite/18.0/lab6_week2_final/tri_state.sv|
+Z35 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/tri_state.sv|
+!i113 1
+R6
+R7
+R8
+vmux8to1
+R1
+R9
+!i10b 1
+!s100 oJWR<<[8NeOUfKO]Xc>dX3
+IGz0aG5mei?]k_FH=B8dBW3
+R3
+R11
+S1
+R0
+R12
+R13
+R14
+L0 90
+R4
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 1
+R6
+R7
+R8
+vreg_16
+R1
+R17
+!i10b 1
+!s100 P]fb4U5UdKF:5Fh4eMTSU1
+I<EjVhheo7jiRJTg7NzO9G3
+R3
+!s105 reg_16_sv_unit
+S1
+R0
+w1602121510
+8C:/intelFPGA_lite/18.0/lab6_week2_final/reg_16.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/reg_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/reg_16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/reg_16.sv|
+!i113 1
+R6
+R7
+R8
+vregfile
+R1
+R9
+!i10b 1
+!s100 GjE>7Ea[7_Mz_6[5BlAiR1
+IKl6k_m1?<gYhJdgg_Nfi;0
+R3
+R11
+S1
+R0
+R12
+R13
+R14
+L0 7
+R4
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 1
+R6
+R7
+R8
+vslc3
+R1
+R9
+!i10b 1
+!s100 5fjj:e]X>KPJGgQfn7S9[3
+I^fo69m2<@FW;=b[fiiN:40
+R3
+!s105 slc3_sv_unit
+S1
+R0
+w1602208029
+8C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3.sv
+R20
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020|C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3.sv|
+!i113 1
+R6
+R22
+R8
+XSLC3_2
+R1
+R19
+!i10b 1
+!s100 Cz8_^@QRefP31?j=Zf>lj0
+I;^n_>k7SH:CW3Hbifa<Xe3
+V;^n_>k7SH:CW3Hbifa<Xe3
+S1
+R0
+Z36 w1602121366
+8C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/SLC3_2.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/SLC3_2.sv
+L0 24
+R4
+r1
+!s85 0
+31
+R21
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/SLC3_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020|C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/SLC3_2.sv|
+!i113 1
+R6
+R22
+R8
+n@s@l@c3_2
+vslc3_testtop
+R1
+Z37 !s110 1602900783
+!i10b 1
+!s100 ^4hhCjYV2aT;kkekDk8a71
+I601Ol8k@CY8`@l@<>z67]1
+R3
+!s105 slc3_testtop_sv_unit
+S1
+R0
+R36
+8C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3_testtop.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3_testtop.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3_testtop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020|C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/slc3_testtop.sv|
+!i113 1
+R6
+R22
+R8
+vsync
+R1
+R19
+!i10b 1
+!s100 OHNUFN]797>kYzRL;ikZR2
+I:og4YiPEjAEX8^SdR3z6E0
+R3
+Z38 !s105 synchronizers_sv_unit
+S1
+R0
+Z39 w1602121367
+Z40 8C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/synchronizers.sv
+Z41 FC:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/synchronizers.sv
+L0 7
+R4
+r1
+!s85 0
+31
+R21
+Z42 !s107 C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/synchronizers.sv|
+Z43 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020|C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/synchronizers.sv|
+!i113 1
+R6
+R22
+R8
+vsync_r0
+R1
+R19
+!i10b 1
+!s100 _Sn:CfHFjznVZen=7jc>C2
+IFb>Amj`z6678<f[W]DWC32
+R3
+R38
+S1
+R0
+R39
+R40
+R41
+L0 21
+R4
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 1
+R6
+R22
+R8
+vsync_r1
+R1
+R19
+!i10b 1
+!s100 4jfZd?z`MK2Y<NLFC0<QH2
+I3SUoLAz0j:74jPCoUhHUO0
+R3
+R38
+S1
+R0
+R39
+R40
+R41
+L0 42
+R4
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 1
+R6
+R22
+R8
+vtest_memory
+R1
+R19
+!i10b 1
+!s100 JAXhO?6GV:H>``me>_X5<1
+IEECX=FFF1TdFC4IlSP?O[2
+R3
+!s105 test_memory_sv_unit
+S1
+R0
+R36
+8C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/test_memory.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/test_memory.sv
+L0 26
+R4
+r1
+!s85 0
+31
+R21
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/test_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020|C:/intelFPGA_lite/18.0/lab6_week2_final/Lab6provided_fa2020/test_memory.sv|
+!i113 1
+R6
+R22
+R8
+vtestbench_lab6
+R1
+R37
+!i10b 1
+!s100 iERg@z_Fc0[`Ug56KM;g90
+I69e2SQk7<AZZF`bCi0igH0
+R3
+!s105 testbench_lab6_sv_unit
+S1
+R0
+w1602900749
+8C:/intelFPGA_lite/18.0/lab6_week2_final/testbench_lab6.sv
+FC:/intelFPGA_lite/18.0/lab6_week2_final/testbench_lab6.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1602900783.000000
+!s107 C:/intelFPGA_lite/18.0/lab6_week2_final/testbench_lab6.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/intelFPGA_lite/18.0/lab6_week2_final|C:/intelFPGA_lite/18.0/lab6_week2_final/testbench_lab6.sv|
+!i113 1
+R6
+R7
+R8
+vtri_state
+R1
+R17
+!i10b 1
+!s100 h819aSHhJCIjP4S?fZRT]3
+Il3Nf=n_HB9AbUkj0nPMai3
+R3
+R30
+S1
+R0
+R31
+R32
+R33
+L0 2
+R4
+r1
+!s85 0
+31
+R18
+R34
+R35
+!i113 1
+R6
+R7
+R8
