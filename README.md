@@ -19,8 +19,10 @@ This course is designed to give students in computer and electrical engineering 
 
 # Topics
 
-  1.Combinational logic circuits<br />
-  2.Storage elements<br />
+  # 1.
+  Combinational logic circuits<br />
+  # 2.
+  Storage elements<br />
   3.Hazards and race conditions<br />
   4.Circuit characteristics (fanout, delays, etc.)<br />
   5.Field Programmable Gate Arrays (FPGAs)<br />
